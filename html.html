@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolie - HTML</title>
+    <link rel="stylesheet" href="portfolio.css">
+
+    <style>
+        nav {
+            list-style-type: none;
+            margin: 0px;
+            padding: 0;
+            width: 100%;
+            background-color: black;
+            border: 1px solid #555;
+            text-align: center;
+            position: fixed;
+        }
+
+        nav a {
+            display: inline-block;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+        }
+
+        nav a.active {
+            background-color: black;
+            color: white;
+        }
+
+        /* Hover styrer den knap man står på*/
+
+        nav a:hover:not(.active) {
+            background-color: white;
+            color: black;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <a href="http://mikkelstorch.dk/kea/portifolie/forside.html">OM</a>
+            <a href="http://mikkelstorch.dk/kea/portifolie/html.html">HTML</a>
+            <a href="http://mikkelstorch.dk/kea/portifolie/video.html">VIDEO</a>
+            <a href="http://mikkelstorch.dk/kea/portifolie/animation.html">ANIMATION</a>
+            <a href="http://mikkelstorch.dk/kea/portifolie/ux.html">UX</a>
+        </nav>
+
+    </header>
+
+    <section id="splash">
+        <div class="logo">
+
+        </div>
+    </section>
+
+    <section id="html">
+
+        <div class="sectionwrapper">
+
+            <h1>GRUNDLÆGGENDE HTML</h1>
+
+            <div class="column_img">
+                <img src="billeder/Screen%20Shot%202018-01-06%20at%2016.30.22.png" alt="ikon">
+                <p>Ikon til stilartsite i forskellige størrelser</p>
+                <img src="billeder/Untitled-1.png" alt="styletile">
+                <p>Styletile til stilartsite</p>
+            </div>
+
+            <div class="column_text">
+                <p>Denne opgave var det første på uddannelsen. I opgaven skulle vi kode et responsivt hjemmeside med HTML og CSS fra bunden udfra en bestemt stilart. Stilarten som jeg fik tildelt var dekonstruktivismen. På hjemmesiden kan man læse om stilarten, eksempler på kunstnere samt karakteristiske træk for typografi, komposition og farver.</p>
+            </div>
+
+            <div class="column_link">
+
+                <a href="http://mikkelstorch.dk/kea/01-web/04-responsive/stilartsite/final/">Se stilartsitet her</a>
+
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+    </section>
+
+    <div class="footer">
+        <p>1. Semester eksamen, portifolie 2018 - Copyright © All Rights Reserved Mikkel Storch</p>
+    </div>
+
+</body>
+
+</html>
